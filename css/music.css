@@ -7,13 +7,14 @@ html {
 }
 
 div.__header {
-	border: solid red 1px;
+	/* border: solid red 1px; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	flex-direction: center;
-	margin-top: 12px;
+	margin-top: 15px;
+	padding-top: 15px;
 	margin-bottom: 32px;
 	width: 100%;
 	/* height: 100%; */
@@ -23,6 +24,9 @@ div.header__title {
 	text-align: center;
 	color: white;
 	margin-top: 5px;
+}
+div.photo {
+	margin-bottom: 16px;
 }
 .profil-smith-cj {
 	font-weight: 700;
@@ -44,4 +48,94 @@ img.header__image {
 	height: 96px;
 	object-position: initial;
 	display: block;
+}
+.hamburger {
+	position: absolute;
+	width: 25px;
+	cursor: pointer;
+}
+.first__link {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font: inherit;
+	vertical-align: baseline;
+	text-align: center;
+	/* display: flex; */
+	/* justify-content: center; */
+}
+.second__link {
+	border: solid red 1px;
+	margin: 0 auto;
+	max-width: 650px;
+	z-index: 0;
+	overflow: hidden;
+	margin-bottom: 16px;
+	transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+		color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+		border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+		transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+		background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+	transition-delay: 0s, 0s, 0s, 0s, 0s;
+	border: 2px solid rgb(63, 57, 57);
+	background-color: rgb(63, 57, 57);
+	color: rgb(247, 165, 112);
+	position: relative;
+	height: auto;
+}
+
+.__link {
+	overflow-wrap: break-word;
+	word-break: break-word;
+	hyphens: auto;
+	white-space: normal;
+	background: none;
+	color: inherit;
+	transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+		border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+		transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+		background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+
+	padding-left: 66px;
+	padding-right: 66px;
+	margin: 0px;
+	border: none;
+	font-family: inherit;
+	text-align: center;
+	font-size: inherit;
+	font-weight: inherit;
+	cursor: pointer;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: auto;
+	width: 100%;
+	vertical-align: middle;
+	appearance: none;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.img__link {
+	display: flex;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	pointer-events: none;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+	left: 8px;
+	width: 46px;
+	height: 46px;
+}
+
+.smith__img {
+	border-radius: 0px;
+	height: 100%;
+	display: block;
+	object-fit: contain;
+	object-position: initial;
+	width: auto;
 }
