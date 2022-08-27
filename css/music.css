@@ -49,11 +49,7 @@ img.header__image {
 	object-position: initial;
 	display: block;
 }
-.hamburger {
-	position: absolute;
-	width: 25px;
-	cursor: pointer;
-}
+
 .first__link {
 	margin: 0px;
 	padding: 0px;

@@ -3,4 +3,58 @@
 	src: url("../font/marigold/Marigold.ttf");
 }
 
+#menu-hamburger {
+	height: 100%;
+	z-index: 999;
+	width: 220px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#myLinks {
+	display: none;
+	/* border: solid red 1px; */
+	height: 100%;
+	background-color: #e38334;
+	width: 100%;
+	position: relative;
+}
+#hamburger {
+	position: absolute;
+	width: 25px;
+	cursor: pointer;
+	left: 0;
+}
+#close-icon {
+	border: solid red 1px;
+	position: absolute;
+	right: 0;
+}
+#close {
+	display: none;
+}
+a {
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+}
 
+a.icon {
+	/* background: black; */
+	display: block;
+	position: absolute;
+	left: 9px;
+	top: 10px;
+}
+
+a.link__page:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.active {
+	background-color: #04aa6d;
+	color: white;
+}
