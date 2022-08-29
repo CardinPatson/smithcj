@@ -113,6 +113,10 @@ img.header__image {
 	position: relative;
 }
 
+.__link:hover {
+	background-color: #e38334;
+	color: rgb(63, 57, 57);
+}
 .img__link {
 	display: flex;
 	position: absolute;
