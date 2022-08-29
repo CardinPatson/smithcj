@@ -1,0 +1,65 @@
+html {
+	font-size: 13px;
+	box-sizing: border-box;
+	font-family: "Fredoka One", sans-serif;
+	font-weight: 400;
+	background-color: black;
+}
+#hamburger {
+	color: white;
+}
+
+.video__content {
+	border: solid green 1px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.video__list {
+	border: solid red 1px;
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* margin-top: 15px; */
+}
+
+.video__item {
+	width: 100%;
+	height: 100%;
+	/* margin: 10px; */
+}
+.video {
+	display: block;
+	border-radius: 15px;
+	width: 100%;
+	height: 100%;
+	/* zoom: 0.75; */
+}
+@media only screen and (max-width: 670px) {
+	.video__content {
+		padding: 0 10px;
+	}
+	.video__list {
+		border: solid red 1px;
+		width: 600px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 0 5px;
+		margin-top: 50px;
+	}
+	.video:first-child {
+		margin-top: 50px;
+	}
+	.video {
+		display: block;
+		/* box-shadow: 10px 10px 5px #888; */
+		width: 100%;
+		height: 100%;
+	}
+}
