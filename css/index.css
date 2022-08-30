@@ -59,6 +59,7 @@ body {
 #myLinks {
 	display: none;
 	border: solid #e38334;
+	border-right: solid #e38360 1px;
 	height: 100%;
 	background-color: #e38334;
 	width: 100%;
@@ -127,6 +128,8 @@ a.link__page:hover {
 }
 .smith__image {
 	/* border: solid blue 1px; */
+	display: flex;
+	justify-content: center;
 }
 .smith__name {
 	height: auto;
@@ -144,11 +147,11 @@ a.link__page:hover {
 	/* border: solid red 1px; */
 	width: auto;
 	overflow: hidden;
-	width: 100%;
+	width: 80%;
 	height: 100%;
 }
 #dechirure {
-	width: 100%;
+	width: 80%;
 	object-fit: contain;
 	/* border: solid black 1px; */
 	height: 100%;
@@ -194,7 +197,7 @@ img.header__image {
 
 	#fond__acceuil {
 		object-fit: contain;
-		/* border: solid red 1px; */
+		border: solid red 1px;
 		width: 500px;
 		height: 500px;
 		overflow: hidden;
