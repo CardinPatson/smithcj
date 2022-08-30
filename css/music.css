@@ -5,6 +5,9 @@ html {
 	background-color: #e38334;
 	font-weight: 400;
 }
+.__body {
+	padding: 5px;
+}
 
 div.__header {
 	/* border: solid red 1px; */
