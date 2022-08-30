@@ -3,69 +3,86 @@ html {
 	box-sizing: border-box;
 	font-family: "Fredoka One", sans-serif;
 	font-weight: 400;
-	background-color: black;
+	/* background-color: black; */
+	background-color: #e38334;
 }
 #hamburger {
 	color: white;
 }
 
-.video__content {
-	border: solid green 1px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+body {
+	width: 100%;
 	height: 100%;
-	/* margin: 0 auto; */
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
 }
-
-.video__list {
-	border: solid red 1px;
-	margin-top: 15px;
-	width: 600px;
-	height: 100%;
+.bg-container {
+	flex-direction: column;
+	display: flex;
+	min-height: 100vh;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+}
+.pagetemplate-videos {
+	max-width: 600px;
+	width: 100%;
+}
+.video__content {
+	/* border: solid red 1px; */
+	min-height: auto;
+	padding: 0 16px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
-	/* margin-top: 15px; */
+	justify-content: center;
+}
+.video__content .video__list {
+	/* border: solid green 1px; */
+	width: 100%;
+	margin: 48px 0;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 1fr;
+	grid-gap: 16px;
 }
 
-.video__item {
+.video__content .video__list .video__item {
+	padding-top: 56.25%;
+	position: relative;
+}
+.video__content .video__list iframe:last-child {
+	margin-bottom: 0;
+}
+.video__content .video__list .video__item iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
 	width: 100%;
 	height: 100%;
-	/* margin: 10px; */
-	padding-bottom: 35px;
 }
-.video {
-	border: solid red 1px;
-	display: block;
-	border-radius: 15px;
-	width: 100%;
-	height: 400px;
-	/* zoom: 0.75; */
+.video__content .video__list .video {
+	margin-bottom: 12px;
+	overflow: hidden;
+	border-radius: 32px;
 }
-.video:first-child {
-	margin-top: 50px;
-}
-@media only screen and (max-width: 670px) {
-	.video__content {
-		padding: 0 10px;
-	}
-	.video__list {
-		/* border: solid red 1px; */
-		width: 600px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 0 5px;
-		margin-top: 50px;
-	}
 
-	.video {
-		display: block;
-		/* box-shadow: 10px 10px 5px #888; */
-		width: 100%;
-		height: 100%;
+.video {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+@media only screen and (max-width: 600px) {
+	.video__list {
+		padding-top: 35px;
+	}
+	.videos-content .videos-list {
+		margin: 96px 0 24px;
+		grid-template-rows: auto;
+		grid-template-columns: 1fr;
 	}
 }
