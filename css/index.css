@@ -1,7 +1,8 @@
 html {
 	font-size: 13px;
-	/* box-sizing: border-box; */
+	box-sizing: border-box;
 	font-family: "Fredoka One", sans-serif;
+	/* background-color: #e38334; */
 	font-weight: 400;
 }
 body {
@@ -101,7 +102,7 @@ a.link__page:hover {
 }
 
 .all__body__index {
-	border: solid red 1px;
+	/* border: solid red 1px; */
 	/* background-image: url("../image/etoile.jpg");
 	background-repeat: repeat-x;
 	background-position: center;
