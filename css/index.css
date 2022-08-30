@@ -9,6 +9,16 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+.darken {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0.4;
+	z-index: 1001;
+}
 @font-face {
 	font-family: marigold;
 	src: url("../font/marigold/Marigold.ttf");
