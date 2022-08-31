@@ -21,7 +21,7 @@ body {
 }
 @font-face {
 	font-family: marigold;
-	src: url("../font/marigold/Marigold.ttf");
+	src: url("../font/marigold/MARIGOLD.OTF");
 }
 @keyframes smith-cj {
 	0% {
@@ -151,7 +151,7 @@ a.link__page:hover {
 	height: 100%;
 }
 #dechirure {
-	width: 80%;
+	width: 90%;
 	object-fit: contain;
 	/* border: solid black 1px; */
 	height: 100%;
@@ -165,7 +165,7 @@ a.link__page:hover {
 	margin: 0 auto;
 	font-family: "marigold", sans-serif;
 	font-weight: 800;
-	font-size: x-large;
+	font-size: xx-large;
 	animation: smith-cj 3000ms ease-in-out 1000ms infinite;
 }
 /**/
@@ -212,6 +212,7 @@ img.header__image {
 	}
 	#bounce__phrase {
 		/* border: solid green 1px; */
-		padding: 35px;
+		/* padding: 35px; */
+		font-size: 35px;
 	}
 }
