@@ -53,7 +53,7 @@ body {
 	z-index: 999;
 	width: 220px;
 	position: absolute;
-	left: 0;
+	left: 15;
 	top: 0;
 }
 #myLinks {
@@ -64,6 +64,7 @@ body {
 	background-color: #e38334;
 	width: 100%;
 	position: relative;
+	left: -15;
 	/* transition: opacity 10s ease-out;
 	transform: translateX(20); */
 }
@@ -164,7 +165,8 @@ a.link__page:hover {
 	position: absolute;
 	margin: 0 auto;
 	font-family: "marigold", sans-serif;
-	font-weight: 800;
+	/* font-weight: 900; */
+	font-weight: bolder;
 	font-size: xx-large;
 	animation: smith-cj 3000ms ease-in-out 1000ms infinite;
 }

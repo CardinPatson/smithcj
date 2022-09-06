@@ -1,3 +1,5 @@
+[![pages-build-deployment](https://github.com/CardinPatson/smithcj/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master)](https://github.com/CardinPatson/smithcj/actions/workflows/pages/pages-build-deployment)
+
 # smithcj
 
 Doit m’envoyer la police
