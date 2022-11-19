@@ -50,7 +50,6 @@ body {
 
 #menu-hamburger {
 	height: 100%;
-	z-index: 999;
 	width: 220px;
 	position: absolute;
 	left: 15;
@@ -180,9 +179,6 @@ img.header__image {
 	display: block;
 }
 @media only screen and (min-width: 600px) {
-	body {
-		/* max-width: 1600px; */
-	}
 	.all__body__index {
 		/* border: solid red 1px; */
 		width: 100%;

@@ -1,22 +1,25 @@
 function myFunction() {
-	var x = document.getElementById("myLinks");
-	var y = document.getElementById("hamburger");
-	var z = document.getElementById("close");
-	var k = document.getElementById("darken");
-	if (x.style.display === "block") {
-		x.style.display = "none";
-		y.style.display = "block";
-		z.style.display = "none";
+	var myLinks = document.getElementById("myLinks");
+	let menu = document.getElementById("menu-hamburger");
+	var hamburger = document.getElementById("hamburger");
+	var close = document.getElementById("close");
+	var darken = document.getElementById("darken");
+	if (myLinks.style.display === "block") {
+		menu.style.zIndex = 0;
+		myLinks.style.display = "none";
+		hamburger.style.display = "block";
+		close.style.display = "none";
 
 		//no darken page
-		k.style.opacity = 1;
+		darken.style.opacity = 1;
 	} else {
-		x.style.display = "block";
-		y.style.display = "none";
-		z.style.display = "block";
+		menu.style.zIndex = 999;
+		myLinks.style.display = "block";
+		hamburger.style.display = "none";
+		close.style.display = "block";
 
 		//darken page
-		k.style.opacity = 0.4;
+		darken.style.opacity = 0.4;
 	}
 }
 

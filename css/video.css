@@ -64,7 +64,7 @@ body {
 	width: 100%;
 	height: 100%;
 }
-.video__content .video__list .video {
+.video__list .video__item .video {
 	margin-bottom: 12px;
 	overflow: hidden;
 	border-radius: 32px;
@@ -80,7 +80,7 @@ body {
 	.video__list {
 		padding-top: 35px;
 	}
-	.videos-content .videos-list {
+	.video-content .video-list {
 		margin: 96px 0 24px;
 		grid-template-rows: auto;
 		grid-template-columns: 1fr;
