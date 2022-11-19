@@ -50,9 +50,10 @@ body {
 
 #menu-hamburger {
 	height: 100%;
+	/* border: solid red 1px; */
 	width: 220px;
 	position: absolute;
-	left: 15;
+	left: 0;
 	top: 0;
 }
 #myLinks {
@@ -63,18 +64,24 @@ body {
 	background-color: #e38334;
 	width: 100%;
 	position: relative;
-	left: -15;
+	left: 0;
+	padding-left: 5px;
+	text-align: left;
 	/* transition: opacity 10s ease-out;
 	transform: translateX(20); */
 }
-
+.icon_div {
+	position: fixed;
+	z-index: 999;
+}
 #link__menu {
 	margin-top: 40px;
 	/* border: solid blue 1px; */
 }
 #hamburger {
+	/* position: absolute; */
 	position: absolute;
-	width: 25px;
+	width: 40px;
 	cursor: pointer;
 	left: 0;
 }

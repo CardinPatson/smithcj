@@ -6,6 +6,7 @@ function myFunction() {
 	var darken = document.getElementById("darken");
 	if (myLinks.style.display === "block") {
 		menu.style.zIndex = 0;
+		menu.style.borderRight = "none";
 		myLinks.style.display = "none";
 		hamburger.style.display = "block";
 		close.style.display = "none";
@@ -15,6 +16,7 @@ function myFunction() {
 	} else {
 		menu.style.zIndex = 999;
 		myLinks.style.display = "block";
+		menu.style.borderRight = "1px solid #e38334";
 		hamburger.style.display = "none";
 		close.style.display = "block";
 
