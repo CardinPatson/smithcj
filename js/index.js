@@ -1,15 +1,17 @@
 function myFunction() {
-	var myLinks = document.getElementById("myLinks");
+	let myLinks = document.getElementById("myLinks");
 	let menu = document.getElementById("menu-hamburger");
-	var hamburger = document.getElementById("hamburger");
-	var close = document.getElementById("close");
-	var darken = document.getElementById("darken");
+	let hamburger = document.getElementById("hamburger");
+	let close = document.getElementById("close");
+	let darken = document.getElementById("darken");
+	let body = document.getElementById("body");
 	if (myLinks.style.display === "block") {
 		menu.style.zIndex = 0;
 		menu.style.borderRight = "none";
 		myLinks.style.display = "none";
 		hamburger.style.display = "block";
 		close.style.display = "none";
+		darken.classList.remove("freeze_page");
 
 		//no darken page
 		darken.style.opacity = 1;
@@ -21,6 +23,7 @@ function myFunction() {
 		close.style.display = "block";
 
 		//darken page
+		darken.classList.add("freeze_page");
 		darken.style.opacity = 0.4;
 	}
 }
