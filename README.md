@@ -1,5 +1,7 @@
 [![pages-build-deployment](https://github.com/CardinPatson/smithcj/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master)](https://github.com/CardinPatson/smithcj/actions/workflows/pages/pages-build-deployment)
 
+[![Deploy via ftp](https://github.com/CardinPatson/smithcj/actions/workflows/ftp_transfert.yml/badge.svg)](https://github.com/CardinPatson/smithcj/actions/workflows/ftp_transfert.yml)
+
 # smithcj
 
 Doit m’envoyer la police
