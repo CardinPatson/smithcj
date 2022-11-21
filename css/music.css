@@ -64,7 +64,7 @@ img.header__image {
 	/* justify-content: center; */
 }
 .second__link {
-	border: solid red 1px;
+	/* border: solid red 1px; */
 	margin: 0 auto;
 	max-width: 650px;
 	z-index: 0;
